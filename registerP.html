@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Page</title>
+    <link href="../page/styleP.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">HOSPITALx</div>
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="containerR">
+        <div class="registration-form">
+            <h2 class="h12">Registration</h2>
+            <form>
+                <input class="form-input" type="text" name="name" placeholder="Name">
+                <input class="form-input" type="email" name="email" placeholder="Email ID">
+                <input class="form-input" type="phone_number" name="phone_number" placeholder="Phone number">
+                <select class="new" name="gender">
+                  <option value="">Please select one gender</option>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="other">Other</option>
+                </select>
+                <input class="new2" type="date" name="Date_of_birth" placeholder="DOB">
+                <input class="form-input" type="password" name="password" placeholder="Password">
+                <input class="form-input" type="password" name="confirm_password" placeholder="Confirm Password">
+                
+                
+            </form>
+            <button class="register-btn" type="submit">Register</button>
+            <p class="link">Already have an account? <a href="#">Login</a></p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
